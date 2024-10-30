@@ -2,13 +2,13 @@
 # If there are two middle nodes, return the second middle node.
 
 # Definition for singly-linked list.
-# class ListNode
-#     attr_accessor :val, :next
-#     def initialize(val = 0, _next = nil)
-#         @val = val
-#         @next = _next
-#     end
-# end
+class ListNode
+    attr_accessor :val, :next
+    def initialize(val = 0, _next = nil)
+        @val = val
+        @next = _next
+    end
+end
 # @param {ListNode} head
 # @return {ListNode}
 def middle_node(head)
